@@ -1,0 +1,1 @@
+print("Plik grok.blah")
