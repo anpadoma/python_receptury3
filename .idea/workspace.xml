@@ -33,7 +33,10 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8862b5a1-631f-4ee0-8ad2-89ce4c623017" name="Default" comment="" />
+    <list default="true" id="8862b5a1-631f-4ee0-8ad2-89ce4c623017" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="python_receptury3.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,6 +48,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python_receptury3$example__1_.coverage" NAME="example (1) Coverage Results" MODIFIED="1391152934127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/R01/zachowywanie_ostatnich_n_elementów" />
+    <SUITE FILE_PATH="coverage/python_receptury3$example__2_.coverage" NAME="example (2) Coverage Results" MODIFIED="1391153106529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/R01/pobieranie_elementów_z_obiektów_iterowalnych_o_dowolnej_długości" />
     <SUITE FILE_PATH="coverage/python_receptury3$example.coverage" NAME="example Coverage Results" MODIFIED="1391152478634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/R01/filtrowanie_elementów_listy" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -101,9 +105,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="example.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/R01/zachowywanie_ostatnich_n_elementów/example.py">
+        <entry file="file://$PROJECT_DIR$/R01/pobieranie_elementów_z_obiektów_iterowalnych_o_dowolnej_długości/example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="48" selection-start="351" selection-end="351" vertical-scroll-proportion="0.44844124" vertical-offset="0" max-vertical-offset="417">
+            <state line="8" column="48" selection-start="149" selection-end="149" vertical-scroll-proportion="0.3261391" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -116,13 +120,16 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="196" />
     <option name="y" value="16" />
     <option name="width" value="1260" />
     <option name="height" value="814" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -150,6 +157,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -200,17 +208,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python_receptury3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python_receptury3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="R01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pobieranie_elementów_z_obiektów_iterowalnych_o_dowolnej_długości" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="xpath.settings" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -226,7 +251,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.example (1)">
+  <component name="RunManager" selected="Python.example (2)">
     <configuration default="false" name="example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,6 +285,25 @@
       <module name="python_receptury3" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/R01/zachowywanie_ostatnich_n_elementów/example.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="example (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/R01/pobieranie_elementów_z_obiektów_iterowalnych_o_dowolnej_długości" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_receptury3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/R01/pobieranie_elementów_z_obiektów_iterowalnych_o_dowolnej_długości/example.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -626,14 +670,25 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.example" />
-      <item index="1" class="java.lang.String" itemvalue="Python.example (1)" />
+    <configuration default="false" name="Heroku Deployment" type="heroku-deploy" factoryName="Heroku Deployment" server-name="anpadoma">
+      <deployment type="module" name="python_receptury3">
+        <settings />
+      </deployment>
+      <RunnerSettings RunnerId="DeployToServer" />
+      <ConfigurationWrapper RunnerId="DeployToServer" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Heroku Deployment.Heroku Deployment" />
+      <item index="1" class="java.lang.String" itemvalue="Python.example" />
+      <item index="2" class="java.lang.String" itemvalue="Python.example (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.example (2)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.example (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.example" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.example (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.example (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.example" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -665,19 +720,20 @@
       <created>1391152302016</created>
       <updated>1391152302016</updated>
       <workItem from="1391152313659" duration="181000" />
-      <workItem from="1391152890472" duration="144000" />
+      <workItem from="1391152890472" duration="301000" />
+      <workItem from="1391204224170" duration="696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="325000" />
+    <option name="totallyTimeSpent" value="1178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="196" y="16" width="1260" height="814" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -725,33 +781,46 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/R01/filtrowanie_elementów_listy/example.py">
+    <entry file="file://$PROJECT_DIR$/R01/pobieranie_elementów_z_obiektów_iterowalnych_o_dowolnej_długości/example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="58" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="833">
+        <state line="18" column="56" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="459">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/R01/filtrowanie_elementów_listy/example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="19" selection-start="556" selection-end="556" vertical-scroll-proportion="0.4164038" vertical-offset="178" max-vertical-offset="833">
-          <folding />
-        </state>
+        <state line="26" column="58" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="833" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R01/filtrowanie_elementów_listy/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="19" selection-start="556" selection-end="556" vertical-scroll-proportion="0.4164038" vertical-offset="178" max-vertical-offset="833" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/R01/zachowywanie_ostatnich_n_elementów/somefile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564" />
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/R01/zachowywanie_ostatnich_n_elementów/example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="48" selection-start="351" selection-end="351" vertical-scroll-proportion="0.44844124" vertical-offset="0" max-vertical-offset="417">
+        <state line="5" column="17" selection-start="153" selection-end="153" vertical-scroll-proportion="0.1340694" vertical-offset="0" max-vertical-offset="634" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15232">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R01/pobieranie_elementów_z_obiektów_iterowalnych_o_dowolnej_długości/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="48" selection-start="149" selection-end="149" vertical-scroll-proportion="0.3261391" vertical-offset="0" max-vertical-offset="459">
           <folding />
         </state>
       </provider>
